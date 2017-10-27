@@ -1,0 +1,31 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="compose"
+        android:enabled="true"
+        android:icon="@mipmap/ic_shortcut_1"
+        android:shortcutShortLabel="@string/shortcut_1_short_label1"
+        android:shortcutDisabledMessage="@string/shortcut_1_disabled_message1">>
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.anton.npinowbeta"
+            android:targetClass="com.example.anton.npinowbeta.MainActivity" />
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list determines what the user sees when
+             they launch this shortcut. -->
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+    <!-- Specify more shortcuts here. -->
+    <shortcut
+        android:shortcutId="compose_1"
+        android:enabled="true"
+        android:icon="@mipmap/ic_shortcut_3"
+        android:shortcutShortLabel="@string/shortcut_2_short_label1"
+        android:shortcutDisabledMessage="@string/shortcut_2_disabled_message1">>
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.anton.npinowbeta"
+            android:targetClass="com.example.anton.npinowbeta.WeekActivity" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>
+

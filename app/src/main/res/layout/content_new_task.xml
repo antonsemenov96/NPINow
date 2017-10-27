@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.anton.npinowbeta.NewTaskActivity"
+    tools:showIn="@layout/activity_new_task">
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/color_row"
+        android:padding="16dp">
+        <ImageButton
+            android:id="@+id/color_white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_white"
+            android:paddingRight="16dp"
+            android:background="@android:color/transparent"/>
+        <ImageButton
+            android:id="@+id/color_red"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_red"
+            android:paddingRight="16dp"
+            android:background="@android:color/transparent"/>
+        <ImageButton
+            android:id="@+id/color_orange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_orange"
+            android:paddingRight="16dp"
+            android:background="@android:color/transparent"/>
+        <ImageButton
+            android:id="@+id/color_green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_green"
+            android:paddingRight="16dp"
+            android:background="@android:color/transparent"/>
+        <ImageButton
+            android:id="@+id/color_blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_blue"
+            android:paddingRight="16dp"
+            android:background="@android:color/transparent"/>
+    </TableRow>
+
+    <ListView
+        android:layout_below="@id/color_row"
+        android:id="@+id/option_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </ListView>
+
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_main_title" >
+        <ListPreference
+            android:key="prefFac"
+            android:title="@string/pref_fac"
+            android:entries="@array/faculties"
+            android:entryValues="@array/facultiesValues"
+            android:summary="%s" />
+        <ListPreference
+            android:key="prefCurs"
+            android:entries="@array/curses"
+            android:entryValues="@array/cursesValues"
+            android:title="@string/pref_curs"
+            android:summary="%s"
+            />
+        <!--<EditTextPreference
+            android:title="@string/pref_group"
+            android:summary="@string/pref_group_pref"
+            android:key="prefGroup"/>-->
+        <Preference
+            android:title="@string/pref_group"
+            android:key="prefGroup"
+            android:summary="Нажмите, чтобы выбрать группу"/>
+        <SwitchPreference
+            android:key="prefWeeks"
+            android:title="@string/pref_weeks"
+            android:summary="@string/pref_weeksdisc"
+            android:defaultValue="false"/>
+ </PreferenceCategory>
+ <PreferenceCategory android:title="@string/pref_theme_title">
+   <!--  <ListPreference
+         android:key="prefTheme"
+         android:entries="@array/themes"
+         android:entryValues="@array/themesValues"
+         android:title="@string/pref_theme"
+         android:defaultValue="1"
+         android:summary="%s"
+         />-->
+        <SwitchPreference
+            android:key="prefColors"
+            android:title="@string/pref_colors"
+            android:summary="@string/pref_colorsdisc"
+            android:defaultValue="true">
+        </SwitchPreference>
+        </PreferenceCategory>
+
+   <!-- <PreferenceCategory android:title="@string/pref_data_title" >
+        <Preference android:title="@string/data_btn"
+            android:key="@string/data_btn"
+            android:summary=""/>
+    </PreferenceCategory>-->
+</PreferenceScreen>

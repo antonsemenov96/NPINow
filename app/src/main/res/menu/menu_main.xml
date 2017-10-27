@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.anton.npinowbeta.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+   <!--<item
+        android:id="@+id/action_task"
+        android:icon="@drawable/ic_action_task"
+        app:showAsAction="ifRoom"
+        android:title="@string/action_task">
+    </item>-->
+    <item
+        android:id="@+id/action_timetable"
+        android:icon="@drawable/ic_action_name"
+        app:showAsAction="ifRoom"
+        android:title="@string/action_timetable">
+    </item>
+</menu>

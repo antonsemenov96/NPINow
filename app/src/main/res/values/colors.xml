@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#999999</color>
+    <color name="colorAccent">#616161</color>
+
+    <color name="colorTrans">#000000FF</color>
+    <color name="colorTitleText">#000000</color>
+    <color name="colorSettingHeader">#EEEEEE</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorGrey">#9E9E9E</color>
+
+    <color name="Dark_colorPrimary">#2D2D2D</color>
+    <color name="Dark_colorPrimaryDark">#161616</color>
+    <color name="Dark_colorAccent">#4688ec</color>
+
+    <color name="Lec">#388E3C</color>
+    <color name="LecTime">#2E7D32</color>
+    <color name="LecAccent">#FFC400</color>
+    <color name="Lab">#512DA8</color>
+    <color name="LabTime">#4527A0</color>
+    <color name="LabAccent">#00E676</color>
+    <color name="Pr">#1976D2</color>
+    <color name="PrTime">#1565C0</color>
+    <color name="PrAccent">#FF4081</color>
+    <color name="Sem">#E64A19</color>
+    <color name="SemTime">#D84315</color>
+    <color name="SemAccent">#6200EA</color>
+    <color name="No">#EEEEEE</color>
+    <color name="NoTime">#E0E0E0</color>
+
+    <color name="WHITE_NOTE">#E0E0E0</color>
+    <color name="RED">#FFCDD2</color>
+    <color name="RED_ACCENT">#D32F2F</color>
+    <color name="RED_NOTE">#EF9A9A</color>
+    <color name="ORANGE">#FFE0B2</color>
+    <color name="ORANGE_ACCENT">#EF6C00</color>
+    <color name="ORANGE_NOTE">#FFCC80</color>
+    <color name="GREEN">#C8E6C9</color>
+    <color name="GREEN_ACCENT">#388E3C</color>
+    <color name="GREEN_NOTE">#A5D6A7</color>
+    <color name="BLUE">#BBDEFB</color>
+    <color name="BLUE_ACCENT">#1976D2</color>
+    <color name="BLUE_NOTE">#90CAF9</color>
+</resources>
